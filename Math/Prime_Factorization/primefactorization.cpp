@@ -30,7 +30,7 @@ void SieveOfEratosthenes(int N)
     }
 }
 
-// Prime factorization of a number
+// Function for Prime factorization of a number
 void prime_factorization(int num)
 {
 
@@ -48,7 +48,7 @@ void prime_factorization(int num)
 
         while (number % prime_numbers[i] == 0)
         {
-            count++;
+            count++;    //updating count
             number = number / prime_numbers[i];
         }
 
